@@ -1,6 +1,10 @@
 import "./App.css";
 import Tweet from "./components/Tweet";
-
+import Actions from "./components/Actions";
+import User from "./components/User";
+import ProfileImage from "./components/ProfileImage";
+import Message from "./components/Message";
+import Timestamp from "./components/Timestamp";
 const tweetsArray = [
   {
     user: {
@@ -40,7 +44,12 @@ const tweetsArray = [
 function App() {
   return (
     <div className="App">
-      <Tweet />
+      <Tweet tweet={tweetsArray[0]}/>
+      <User/>
+      <Message/>
+      <ProfileImage/>
+      <Timestamp/>
+      <Actions/>
     </div>
   );
 }
