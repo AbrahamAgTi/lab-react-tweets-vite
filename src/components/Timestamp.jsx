@@ -1,7 +1,7 @@
 
-function Timestamp() {
+function Timestamp({ time }) {
     return (
-        <div>Timestamp</div>
+        <span className="timestamp" > {time} </span>
     )
 }
 

@@ -1,7 +1,7 @@
 
-function ProfileImage({ url }) {
+function ProfileImage({ image }) {
     return (
-        <img src={url} className="profile" alt="profile" />
+        <img src={image} className="profile" alt="profile" />
     )
 }
 
